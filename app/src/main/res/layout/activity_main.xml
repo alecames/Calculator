@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_above="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textIsSelectable="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="end"
+        android:padding="8dp"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeMaxTextSize="100sp"
+        app:autoSizeStepGranularity="2sp"/>
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:useDefaultMargins="false"
+        android:rowCount="6"
+        android:columnCount="4"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:text="@string/save"
+            android:onClick="save"
+            app:cornerRadius="@dimen/cornerRadius"
+            style="@style/buttonReg"/>
+
+        <Button
+            android:id="@+id/buttonRecall"
+            android:onClick="recall"
+            android:text="@string/recall"
+            app:cornerRadius="@dimen/cornerRadius"
+            style="@style/buttonReg"/>
+
+        <Button
+            android:id="@+id/buttonClear"
+            android:text="@string/numeral_clear"
+            android:onClick="clear"
+            app:cornerRadius="@dimen/cornerRadius"
+            style="@style/buttonAccent3" />
+
+        <Button
+            android:id="@+id/buttonDivide"
+            android:text="@string/numeral_divide"
+            android:onClick="add"
+            app:cornerRadius="@dimen/cornerRadius"
+            style="@style/buttonAccent2" />
+
+        <Button
+            android:id="@+id/button7"
+            android:text="@string/numeral_7"
+            android:onClick="add"
+            app:cornerRadius="@dimen/cornerRadius"
+            style="@style/buttonReg"/>
+
+        <Button
+            android:id="@+id/button8"
+            android:text="@string/numeral_8"
+            android:onClick="add"
+            app:cornerRadius="@dimen/cornerRadius"
+            style="@style/buttonReg"/>
+
+        <Button
+            android:id="@+id/button9"
+            android:text="@string/numeral_9"
+            android:onClick="add"
+            app:cornerRadius="@dimen/cornerRadius"
+            style="@style/buttonReg"/>
+
+        <Button
+            android:id="@+id/buttonMultiply"
+            android:text="@string/numeral_multiply"
+            android:onClick="add"
+            app:cornerRadius="@dimen/cornerRadius"
+            style="@style/buttonAccent2"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:text="@string/numeral_4"
+            android:onClick="add"
+            app:cornerRadius="@dimen/cornerRadius"
+            style="@style/buttonReg"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:text="@string/numeral_5"
+            android:onClick="add"
+            app:cornerRadius="@dimen/cornerRadius"
+            style="@style/buttonReg"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:text="@string/numeral_6"
+            android:onClick="add"
+            app:cornerRadius="@dimen/cornerRadius"
+            style="@style/buttonReg"/>
+
+        <Button
+            android:id="@+id/buttonMinus"
+            android:text="@string/numeral_minus"
+            android:onClick="add"
+            app:cornerRadius="@dimen/cornerRadius"
+            style="@style/buttonAccent2" />
+
+        <Button
+            android:id="@+id/button1"
+            android:text="@string/numeral_1"
+            android:onClick="add"
+            app:cornerRadius="@dimen/cornerRadius"
+            style="@style/buttonReg" />
+
+        <Button
+            android:id="@+id/button2"
+            android:text="@string/numeral_2"
+            android:onClick="add"
+            app:cornerRadius="@dimen/cornerRadius"
+            style="@style/buttonReg"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:text="@string/numeral_3"
+            android:onClick="add"
+            app:cornerRadius="@dimen/cornerRadius"
+            style="@style/buttonReg" />
+
+        <Button
+            android:id="@+id/buttonPlus"
+            android:text="@string/numeral_plus"
+            android:onClick="add"
+            app:cornerRadius="@dimen/cornerRadius"
+            style="@style/buttonAccent2" />
+
+        <Button
+            android:id="@+id/button0"
+            android:text="@string/numeral_0"
+            android:onClick="add"
+            app:cornerRadius="@dimen/cornerRadius"
+            style="@style/buttonReg"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <Button
+            android:id="@+id/buttonDecimal"
+            android:text="@string/numeral_decimal"
+            android:onClick="add"
+            app:cornerRadius="@dimen/cornerRadius"
+            style="@style/buttonReg" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:text="@string/numeral_backspace"
+            android:onClick="delete"
+            app:cornerRadius="@dimen/cornerRadius"
+            style="@style/buttonReg"/>
+
+        <Button
+            android:id="@+id/buttonEquals"
+            android:text="@string/numeral_equals"
+            android:onClick="equals"
+            app:cornerRadius="@dimen/cornerRadius"
+            style="@style/buttonAccent1"/>
+
+    </GridLayout>
+</RelativeLayout>
+

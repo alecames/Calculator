@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark">#FF2f312e</color>
+    <color name="darker">#FF2b2b2b</color>
+    <color name="statusBar">#FF121212</color>
+    <color name="light">#ffe0e0e0</color>
+    <color name="lighter">#FFf9f9f9</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="textColour">#FFEEEEEE</color>
+    <color name="greenish">#50783B</color>
+    <color name="otherGreenish">#35432E</color>
+    <color name="bluish">#284b5e</color>
+    <color name="lightBluish">#c4e7ff</color>
+</resources>
