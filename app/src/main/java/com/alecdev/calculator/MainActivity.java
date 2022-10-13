@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
     public void add(View view) {
         TextView textView = findViewById(R.id.textView);
         String text = textView.getText().toString();
-        
+
         // checks whats in textview and clears if is Error, Infinity, 0, or if canClear is true
         // canClear is essentially a flag used for results
         switch (text) {
