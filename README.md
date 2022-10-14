@@ -2,7 +2,7 @@
 
 Standard calculator for Android. Minimum supported API 23 (Marshmallow). 
 
-Features 
+### Features:
 - auto-sizing font for the text view
 - selectable/copyable result
 - memory functions
