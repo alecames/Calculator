@@ -1,4 +1,4 @@
-# Calculator
+# Calculator <a href="https://github.com/alecames/Calculator/releases/latest"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/alecames/Calculator?display_name=tag&style=flat-square"></a>
 
 Standard calculator for Android. Minimum supported API 23 (Marshmallow). 
 
